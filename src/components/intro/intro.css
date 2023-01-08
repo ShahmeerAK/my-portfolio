@@ -110,6 +110,9 @@ body {
         flex-direction: column;
 
     }
+    .i-desc{
+        display: none;
+    }
     .i-img{
         object-fit: contain;
     }
@@ -124,7 +127,3 @@ body {
 }
 
 
-@media screen and (max-width: 500px) {
-    .i-img {
-            object-fit: cover;
-        }}
